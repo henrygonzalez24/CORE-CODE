@@ -13,7 +13,6 @@ The teacher knows that only those who studied would be telling the truth and tho
 
 ### SOLUTION
 
----
+```
 Bob is telling the truth, because he can say that he study math yesterday without know if the rest of the people study or not.
----
-
+``` 
