@@ -18,7 +18,7 @@ Bob is telling the truth, because he can say that he study math yesterday withou
 ``` 
 ------------------
 
-#CEREAL OR MILK
+# CEREAL OR MILK
 
 Create an algorithm to prepare a bowl of cereal with milk. Represent the result in pseudocode and in a flowchart.
 
