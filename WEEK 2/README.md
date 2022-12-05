@@ -36,19 +36,19 @@ Create an algorithm to prepare a bowl of cereal with milk. Represent the result 
 # PRINT MY NAME
 
 The pseudocode of the algorithm is the following:
-Algorithm: myname
-    Imprimir 'Henry González'
-Algorithm end
+-Algorithm: myname
+   - Imprimir 'Henry González'
+-Algorithm end
 
 ![MY NAME](https://user-images.githubusercontent.com/119624165/205738671-59876b4a-7b42-4096-9197-7057d59836e5.PNG)
 -----------------------
 # PRINT MY NAME & AGE
 
 The pseudocode of the algorithm is the following:
-Algorithm: myname
-    Imprimir 'Henry González'
-    Imprimir '24'
-Algorithm end
+-Algorithm: myname
+    -Imprimir 'Henry González'
+   - Imprimir '24'
+-Algorithm end
 
 ![my name and age](https://user-images.githubusercontent.com/119624165/205738701-85799afd-8ff1-45a1-aed3-f97d875a186f.PNG)
 -------------------------
