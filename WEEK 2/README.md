@@ -183,6 +183,9 @@ Algoritmo DetectEvenOdd
 FinAlgoritmo
 
 ```
+![EVEN](https://user-images.githubusercontent.com/119624165/205800738-9d1878c6-0b54-4874-94e0-5ccc7cb74449.PNG)
 
-------------------------------------------
+--![ODD](https://user-images.githubusercontent.com/119624165/205800754-727cd521-d8b6-4ad3-aba4-cf2353bf992d.PNG)
+
+----------------------------------------
 
