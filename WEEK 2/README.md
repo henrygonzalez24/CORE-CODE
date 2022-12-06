@@ -59,3 +59,18 @@ The pseudocode of the algorithm is the following:
 ![SQUIRREL](https://user-images.githubusercontent.com/119624165/205783518-d858ea55-d128-4bc8-8aca-629a6b9b36f8.PNG)
 
 --------------------------
+
+# MOD
+
+The challenge for you now is to create a PSeInt program that will receive a number from the user and add the mod operator using the even/odd case ( X % 2 ) where X is the user input
+
+    Algoritmo odd/even
+        Leer X
+        Imprimir X % 2
+     Fin Algoritmo
+     
+     
+![PAR](https://user-images.githubusercontent.com/119624165/205784989-dbfc72dc-1dfb-4130-a191-4e7e278136b1.PNG)
+
+![IMPAR](https://user-images.githubusercontent.com/119624165/205785005-a4494214-9828-495f-aa98-e6bb7379a68b.PNG)
+----------------------------------
