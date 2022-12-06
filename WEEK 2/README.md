@@ -39,9 +39,11 @@ Create an algorithm to prepare a bowl of cereal with milk. Represent the result 
 
 The pseudocode of the algorithm is the following:
 
+```
 -Algorithm: myname
    - Imprimir 'Henry González'
 -Algorithm end
+```
 
 ![MY NAME](https://user-images.githubusercontent.com/119624165/205738671-59876b4a-7b42-4096-9197-7057d59836e5.PNG)
 -----------------------
@@ -49,10 +51,12 @@ The pseudocode of the algorithm is the following:
 
 The pseudocode of the algorithm is the following:
 
+```
 -Algorithm: myname
     -Imprimir 'Henry González'
    - Imprimir '24'
 -Algorithm end
+```
 
 ![my name and age](https://user-images.githubusercontent.com/119624165/205738701-85799afd-8ff1-45a1-aed3-f97d875a186f.PNG)
 -------------------------
@@ -68,11 +72,12 @@ The pseudocode of the algorithm is the following:
 
 The challenge for you now is to create a PSeInt program that will receive a number from the user and add the mod operator using the even/odd case ( X % 2 ) where X is the user input
 
+```
     Algoritmo odd/even
         Leer X
         Imprimir X % 2
      Fin Algoritmo
-     
+ ```    
      
 ![PAR](https://user-images.githubusercontent.com/119624165/205784989-dbfc72dc-1dfb-4130-a191-4e7e278136b1.PNG)
 
@@ -82,7 +87,7 @@ The challenge for you now is to create a PSeInt program that will receive a numb
 
 # REGISTER FORM
 
-
+```
 Algoritmo REGISTER 
 	Imprimir '====== USER FORM ======'
 	Imprimir 'First Name' 
@@ -102,7 +107,7 @@ Algoritmo REGISTER
 	Imprimir 'adress: ' + address
 	Imprimir '==========================='
 FinAlgoritmo
-
+```
 
 ![REGISTER](https://user-images.githubusercontent.com/119624165/205786513-e9834ff3-ff20-4739-b0b5-af024da4f343.PNG)
 
