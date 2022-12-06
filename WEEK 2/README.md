@@ -73,4 +73,33 @@ The challenge for you now is to create a PSeInt program that will receive a numb
 ![PAR](https://user-images.githubusercontent.com/119624165/205784989-dbfc72dc-1dfb-4130-a191-4e7e278136b1.PNG)
 
 ![IMPAR](https://user-images.githubusercontent.com/119624165/205785005-a4494214-9828-495f-aa98-e6bb7379a68b.PNG)
+
+----------------------------------
+
+# REGISTER FORM
+
+
+Algoritmo REGISTER 
+	Imprimir '====== USER FORM ======'
+	Imprimir 'First Name' 
+	Leer firstName
+	imprimir 'Last Name'
+	Leer lastName
+	Imprimir 'age'
+	Leer age
+	Imprimir 'email'
+	Leer email
+	Imprimir 'address'
+	Leer address
+	Imprimir '====== USER DATA =======' 
+	Imprimir 'Full name: ' + FirstName +'' + LastName
+	imprimir 'Age: ' + age
+	imprimir 'Email: ' + Email
+	Imprimir 'adress: ' + address
+	Imprimir '==========================='
+FinAlgoritmo
+
+
+![REGISTER](https://user-images.githubusercontent.com/119624165/205786513-e9834ff3-ff20-4739-b0b5-af024da4f343.PNG)
+
 ----------------------------------
