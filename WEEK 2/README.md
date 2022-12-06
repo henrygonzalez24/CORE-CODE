@@ -54,3 +54,8 @@ The pseudocode of the algorithm is the following:
 
 ![my name and age](https://user-images.githubusercontent.com/119624165/205738701-85799afd-8ff1-45a1-aed3-f97d875a186f.PNG)
 -------------------------
+# SQUIRREL GAME
+
+![SQUIRREL](https://user-images.githubusercontent.com/119624165/205783518-d858ea55-d128-4bc8-8aca-629a6b9b36f8.PNG)
+
+--------------------------
