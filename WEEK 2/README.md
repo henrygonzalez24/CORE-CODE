@@ -140,9 +140,49 @@ You are going to learn about three main logical operations used in programming, 
 
 # BOOLEAN RESULTS
 
+You have been assigned to verify and explain a code created by one of your colleagues, the idea is that you can describe the value that each variable has within the code as well as what was done for each line. What is expected of you is that you add comments below each line showing the value that the variable would have and a short explanation of how that value is reached.
+
 ```
-hghghghg
+Algoritmo Boolean
+	a <- 5 == 3
+	// FALSE, Because 5 is not the same with 3
+	b <- 4 <> 3
+	// True, Because 4 and 3 are different
+	c <- 7 > 7
+	// False, Because we are comparing the same number, no one can be mayor
+	d <- 4 < 4
+	// False, Because we are comparing the same number, no one can be mayor
+	e <- 100 <= 90
+	// FALSE, Because 90 is minor than 100, also it's not the same
+	f <- 40 >= 40 
+	// TRUE, Because we are comparing the same number
+FinAlgoritmo
  
  ```
 
+-----------------------------------
+
+# Identify odd and even numbers
+
+Remember the last challenge about the Mod operator? well, today your task will be to create a program that will be able to detect based on the user input if the number is odd or even. The process should be the following:
+
+The user enters a number
+Your algorithm detects if the number is odd or even (remember to use conditional statements Si...Entonces)
+Print ‘Número: x es par’ if the number is even (x is the number the user enters)
+Print ‘Número: x es impar’ if the number is odd (x is the number the user enters)
+
+```
+Algoritmo DetectEvenOdd
+	imprimir 'Enter number to verify'
+    Leer X
+	Si x % 2 == 0 Entonces
+		Imprimir 'Number: ' + ConvertirATexto(X) + ' is even'
+	SiNo
+		Imprimir 'Number: ' + ConvertirATexto(X) + ' is odd'
+	FinSi
+FinAlgoritmo
+
+```
+
+------------------------------------------
 
