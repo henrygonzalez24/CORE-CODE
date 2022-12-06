@@ -35,6 +35,8 @@ Create an algorithm to prepare a bowl of cereal with milk. Represent the result 
 ---------------------
 # PRINT MY NAME
 
+## NOVEMBER 29TH
+
 The pseudocode of the algorithm is the following:
 
 -Algorithm: myname
@@ -55,6 +57,8 @@ The pseudocode of the algorithm is the following:
 ![my name and age](https://user-images.githubusercontent.com/119624165/205738701-85799afd-8ff1-45a1-aed3-f97d875a186f.PNG)
 -------------------------
 # SQUIRREL GAME
+
+## NOVEMBER 30
 
 ![SQUIRREL](https://user-images.githubusercontent.com/119624165/205783518-d858ea55-d128-4bc8-8aca-629a6b9b36f8.PNG)
 
@@ -103,3 +107,32 @@ FinAlgoritmo
 ![REGISTER](https://user-images.githubusercontent.com/119624165/205786513-e9834ff3-ff20-4739-b0b5-af024da4f343.PNG)
 
 ----------------------------------
+
+# TRUTH TABLES 
+
+## DECEMBER 1ST
+
+You are going to learn about three main logical operations used in programming, these operations are called AND, OR, and NOT. Each of the operations uses booleans as operands, and when applying the operations a result is generated, which is also a boolean, this is easier to check using the Truth Tables for each of the operations, now your task is for you to learn, and add the Truth Tables for each of the operations add them to your README and check if the following operations are correct by answering ✅ or ❌ at the end of each operation
+
+|Operation | Answer|
+|----------|-------|
+| T `&` T = T | ✅ |
+| T `&` F = F | ✅ |
+| F `&` T = T | ❌ |
+| F `&` F = F | ✅ |
+| T `OR` T = T | ✅ |
+| T `OR` F = F | ❌ |
+| F `OR` T = T | ✅ |
+| F `OR` F = F | ✅ |
+| `~`T = T | ❌ |
+| `~`F = T | ✅ |
+| (T `&` F) `OR` (`~`F) = T | ✅ |
+| (T `OR` F ) `&` (F `OR` F) = T | ❌ |
+| `~`((T `OR` F ) `&` (F `OR` F)) `&` F = T | ❌ |
+| `~`((T `OR` F ) `&` (F `OR` F)) `&` T = F | ❌ |
+
+----------------------------------------------
+
+# BOOLEAN RESULTS
+
+
