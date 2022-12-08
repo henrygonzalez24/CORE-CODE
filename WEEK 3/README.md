@@ -218,5 +218,43 @@ INCORRECT OPTION
 ![INCORRECT OPTION](https://user-images.githubusercontent.com/119624165/206336429-05151c0e-a1cc-43c2-8435-eddc2571ccde.PNG)
 
 -----------------------------------
+ # Simple calculator with Do While
+ 
+ ```
+ Algoritmo simpleCalswitch
+	Imprimir ' =========SIMPLE CALCULATOR========'
+	Repetir
+		Imprimir 'Ingrese primer numero'
+		leer n1
+		Imprimir 'Ingrese segundo numero'
+		leer n2
+		Imprimir 'Ingrese operación +,-,*,/'
+		leer op
+		Si op == '+' | op == '-' | op == '*' | op == '/' Entonces
+			Imprimir ' Procesando ' + ConvertirATexto(n1) + ' ' + op + ' ' + ConvertirATexto(n2)
+			Si op == '+' Entonces
+				imprimir ' Resultado :' + ConvertirATexto( n1 + n2 )
+			sino 
+				Si op == '-' Entonces
+					imprimir 'Resultado :' + ConvertirATexto( n1 - n2 )
+				SiNo
+					si op == '*' Entonces
+						Imprimir 'Resultado :' + ConvertirATexto( n1 * n2)
+					SiNo
+						Imprimir 'Resultado :' + ConvertirATexto( n1 / n2)
+					FinSi
+				FinSi
+			FinSi
+		Sino 
+			Imprimir 'Operación no valida'
+		FinSi
+	
+		Imprimir 'Desea continuar? Si / No'
+		Leer continuar 
+	Hasta Que continuar == 'no' | continuar == 'No'
+FinAlgoritmo
+```
+![DO WHILE](https://user-images.githubusercontent.com/119624165/206342303-fe993c41-68c4-49e5-abde-0d76053c87d7.PNG)
 
+---------------------------
 
