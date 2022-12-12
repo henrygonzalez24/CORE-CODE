@@ -153,9 +153,7 @@ FAIL OPERATION
 
 ---------------------------
 
-# Multi Option
-
-## December 7th
+# Multi Option Program
 
 ```
 Algoritmo Multipleopcion
@@ -218,6 +216,17 @@ INCORRECT OPTION
 ![INCORRECT OPTION](https://user-images.githubusercontent.com/119624165/206336429-05151c0e-a1cc-43c2-8435-eddc2571ccde.PNG)
 
 -----------------------------------
+
+# Multiplicacion tables
+
+ ## December 7th
+ 
+For this challenge you will create a program to calculate the multiplication tables for a given number using While (Mientras). The user must enter a number and then the multiplication table for the number must be printed.
+
+```
+
+
+---------------------------------------
  # Simple calculator with Do While
  
  ```
