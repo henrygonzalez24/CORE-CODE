@@ -280,4 +280,54 @@ FinAlgoritmo
 ![DO WHILE](https://user-images.githubusercontent.com/119624165/206342303-fe993c41-68c4-49e5-abde-0d76053c87d7.PNG)
 
 ---------------------------
+# Multiplication Tables with For
+
+## DECEMBER 8TH
+
+For this challenge you will create a program to calculate the multiplication tables for a given number using the For(Para) loop. 
+
+
+--------------------------
+# GREETINGS
+
+For this challenge, you need to create a program that prints a greeting based on an hour entered. The program should do the following:
+
+Print Buenos dias! if the hour is from 0 to 12
+Print Buenas tardes! if the hour is from 13 to 18
+Print Buenas noches! if the hour is from 19 to 23
+Ask the user if he wants to perform another greeting. If the answer is Si, the program must start again.
+At the end of the program, print out the number of times the program has greeted.
+```
+Algoritmo Greetings
+	Imprimir '======= Greetings ======='
+	Definir continuar Como Cadena
+	Definir contador Como Entero
+	contador <- 0
+	continuar <- 'Si'
+	Mientras continuar == 'Si' Hacer
+		Imprimir 'Ingrese la hora actual (0-23):'
+		Leer hora
+		Si hora <= 12 Entonces
+			Imprimir 'Buenas dias!'
+		SiNo 
+			Si hora <= 18 Entonces
+				Imprimir 'Buenas tardes!'
+			SiNo
+				Imprimir 'Buenas noches!'
+			Fin Si
+		Fin Si
+		
+		contador <- contador + 1
+		
+		Imprimir 'Desea continuar ? Si/No'
+		Leer continuar
+	Fin Mientras
+	
+	Imprimir 'Cantidad de Saludos realizados: ' + ConvertirATexto(contador)
+FinAlgoritmo
+```
+
+![GREETINGS](https://user-images.githubusercontent.com/119624165/207448289-fd02229d-110d-45fc-915b-d63fb5dabed8.PNG)
+
+----------------------------------------
 
