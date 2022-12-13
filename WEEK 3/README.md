@@ -224,7 +224,21 @@ INCORRECT OPTION
 For this challenge you will create a program to calculate the multiplication tables for a given number using While (Mientras). The user must enter a number and then the multiplication table for the number must be printed.
 
 ```
+Algoritmo sin_titulo
+	Imprimir '========= TABLA DE MULTIPLICAR ============'
+	Imprimir 'Ingrese la tabla para calcular'
+	Leer tabla 
+	Imprimir '@ Tabla de ' + ConvertirATexto(tabla) + ' @ '
+	iterador <- 1
+	mientras iterador <= 10 Hacer
+		imprimir ConvertirATexto(tabla) + ' * ' + ConvertirATexto(iterador) + ' = ' + ConvertirATexto(tabla * iterador)
+		iterador <- iterador + 1
+	FinMientras
+FinAlgoritmo
 
+```
+
+![MULTIPL](https://user-images.githubusercontent.com/119624165/207413325-e8146d66-c754-4a74-9be9-76b197b0dd31.PNG)
 
 ---------------------------------------
  # Simple calculator with Do While
