@@ -284,7 +284,32 @@ FinAlgoritmo
 
 ## DECEMBER 8TH
 
-For this challenge you will create a program to calculate the multiplication tables for a given number using the For(Para) loop. 
+For this challenge you will create a program to calculate the multiplication tables for a given number using the For(Para) loop.
+
+```
+Algoritmo MultiplicarPara
+	Imprimir '========= TABLA DE MULTIPLICAR ============'
+	Imprimir 'Ingrese la tabla para calcular'
+	Leer tabla 
+	Imprimir '@ Tabla de ' + ConvertirATexto(tabla) + ' @ '
+	Para iterador <- 1 Hasta 10 Con Paso 1 Hacer
+		Imprimir ConvertirATexto(tabla) + ' * ' + ConvertirATexto(iterador) + ' = ' + ConvertirATexto(tabla * iterador)
+	FinPara
+FinAlgoritmo
+```
+
+
+![calcu 2](https://user-images.githubusercontent.com/119624165/207485715-5f521914-3923-47c1-af6e-34c317e3c3bb.PNG)
+
+--------------------------
+
+# Ascending and Descending Numbers
+
+For this challenge we are going to print numbers in ascending or descending order. The user must enter a number, then he must enter if he wants to print the numbers in ascending or descending order. If the user chooses ascending, the numbers will be printed from the number 0 to the number entered, otherwise the numbers will be printed descending from the number entered to the number 0.To solve this challenge remember to use the For(Para) loop.
+
+```
+
+
 
 
 --------------------------
