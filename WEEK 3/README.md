@@ -307,8 +307,34 @@ FinAlgoritmo
 
 For this challenge we are going to print numbers in ascending or descending order. The user must enter a number, then he must enter if he wants to print the numbers in ascending or descending order. If the user chooses ascending, the numbers will be printed from the number 0 to the number entered, otherwise the numbers will be printed descending from the number entered to the number 0.To solve this challenge remember to use the For(Para) loop.
 
+```
+Algoritmo AscendAndDescen
+	Imprimir '===Ascending and Descending numbers==='
+	Imprimir 'Ingrese numero'
+	Leer num
+	Imprimir 'Opciones disponibles'
+	imprimir 'Imprimir en orden ascendente'
+	Imprimir 'Imprimir en orden descendente'
+	Imprimir 'Ingrese opción elegida'
+	leer op
+	Segun op Hacer
+		1:
+			Para i <- 1 Hasta num con paso 1 hacer
+				imprimir i
+			Fin Para
+		2:
+			Para i <- num Hasta 0 con paso -1 hacer
+				imprimir i
+			Fin Para
+		De Otro Modo:
+			imprimir 'Opción no valida'
+	Fin Segun
+FinAlgoritmo
+```
 
 
+
+![ASCENDIENTES](https://user-images.githubusercontent.com/119624165/207670055-654000fe-63c7-4189-a61e-998141247d87.PNG)
 
 
 
