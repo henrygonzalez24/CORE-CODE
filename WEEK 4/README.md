@@ -68,6 +68,8 @@ FinAlgoritmo
 
 # FULL NAME
 
+## DECEMBER 13TH
+
 Make a program that takes a first name and a last name, then returns a string with both values ​​with the first letter uppercase and the rest lowercase.
 
 ```
@@ -86,3 +88,102 @@ FinAlgoritmo
 ![NAME](https://user-images.githubusercontent.com/119624165/208530407-a77b71ed-6763-4759-bf7d-7e4c563cdf3b.PNG)
 
 -------------------------------------
+
+# Throw dice
+
+make a program that simulates the roll of 2 dice 10 times, and display for each roll the values ​​of the two dice separated by a space, in case the 2 dice throw the same value in addition to the result, add a string to the ending that says "the dice are the same".
+
+```
+Algoritmo AZARGAME
+	imprimir 'THROW DICE'
+	definir dice1, dice2 Como entero
+	para count = 1 hasta 10 con paso 1 Hacer
+		dice1 = aleatorio (1,6)
+		dice2 = aleatorio (1,6)
+		si dice1 = dice2 entonces
+			Imprimir dice1, ' ' , dice2, 'are the same'
+		SiNo
+			imprimir dice1, ' ', dice2
+		FinSi
+	FinPara
+FinAlgoritmo
+```
+
+![DICE](https://user-images.githubusercontent.com/119624165/208532133-927f6224-1dd9-4666-b459-a4ca8d8660c9.PNG)
+
+-------------------------
+
+# DISTANCE TO 0
+
+### DECEMBER 14TH
+
+Make a program that asks for 5 values ​​and also allows us to know which one is furthest from zero, once obtained it returns that number (the numbers can be negative), showing only the integer part of the number.
+
+Expected output
+
+```
+Algoritmo ZeroNumber
+	Escribir 'Write a number'
+	leer distanceM
+	Para count = 1 hasta 4 Con Paso 1 Hacer
+		escribir 'Write a number'
+		leer number
+		si abs(number) > abs(distanceM) Entonces
+			distanceM = number
+		FinSi
+	FinPara
+	imprimir trunc(distanceM)
+FinAlgoritmo
+```
+
+![MAX DISTANCE](https://user-images.githubusercontent.com/119624165/208537675-5c3d51d5-c33a-4c45-93d2-4a2088ac5ab2.PNG)
+
+-------------------------------
+
+# TOSS COIN
+
+From the data we receive first a name and a value, then another name and another value, using the built-in function aleatorio() we simulate the flip of a coin, We must return the name of the winner in capital letters and the value I win, to avoid cheating, if a player puts a value of zero or negative, the opponent automatically wins, in case both cheat, "game canceled" is returned.
+
+```
+Algoritmo tosscoin
+	escribir 'Enter the name of the first player :'
+	leer name1
+	Escribir 'Enter the amount to play: '
+	leer amount1
+	escribir 'Enter the name of the first player :'
+	leer name2
+	Escribir 'Enter the amount to play: '
+	leer amount2
+	
+	si amount1 <= 0 | amount2 <= 0 Entonces
+		si amount1 <= 0 | amount2 <= 0 Entonces
+			imprimir 'Game canceled'
+		SiNo
+			si amount1 <= 0 Entonces
+				imprimir 'Player wins: ', ' ', Mayusculas(name1), 'amount won: 0'
+			SiNo
+				imprimir 'Player wins: ', ' ', Mayusculas(name2), 'amount won: 0'
+			FinSi
+		FinSi
+	SiNo
+		si aleatorio(1,2) = 1 Entonces
+			imprimir 'Player wins: ', ' ', Mayusculas(name1), 'amount won:' , amount1
+		SiNo
+			imprimir 'Player wins: ', ' ', Mayusculas(name2), ' ', 'amount won:' , amount2
+		FinSi
+	FinSi
+FinAlgoritmo
+```
+![TOSS COIN](https://user-images.githubusercontent.com/119624165/208539444-84c8ada7-bd83-471a-b710-8aacd59ca5c9.PNG)
+
+------------------------------------
+
+# TOTAL PRICE
+
+# DECEMBER 15TH
+
+Create a function called TotalPrice that takes 2 parameters, price and VAT, and returns the price including VAT. if the price exceeds 3000 a 10 percent discount is made on the total price.
+
+```
+
+
