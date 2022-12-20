@@ -185,5 +185,49 @@ FinAlgoritmo
 Create a function called TotalPrice that takes 2 parameters, price and VAT, and returns the price including VAT. if the price exceeds 3000 a 10 percent discount is made on the total price.
 
 ```
+Funcion value <- TotalPrice (price, iva)
+	Definir value Como Real;
+	SI price > 3000 Entonces
+		value = ( price + (price/100*iva) ) / 100*90
+	SiNo
+		value = ( price + (price/100*iva) )
+	FinSi
+Fin Funcion
 
+Algoritmo tottalpriceExercise
+	Imprimir TotalPrice(6000,12)
+FinAlgoritmo
+```
 
+![TOTALPRICE](https://user-images.githubusercontent.com/119624165/208565643-5446b67a-6c87-4a08-b27f-0dd2158faaca.PNG)
+
+--------------------------------------
+
+#REVERSE DIRECTION AND SIZE
+
+Create a function called ReverseDirectionAndSize that takes some text as a parameter and reverses it, eg: "Hello" -> "olleH" and also reverses the letters if they are uppercase to lowercase and if they are lowercase to uppercase
+
+```
+Funcion result <- ReverseDirectionAndSize (string)
+	Definir result Como Caracter;
+	result = "";
+	Para count = Longitud(string) Hasta 0 Con Paso -1 Hacer
+		letter = Subcadena(string,count,count);
+		SI letter = Mayusculas(letter) Entonces
+			letter = Minusculas(letter)
+		SiNo
+			letter = Mayusculas(letter)
+		FinSi
+		result = Concatenar(result, letter)
+	FinPara
+Fin Funcion
+
+Algoritmo example_ReverseDirectionAndSize
+	leer text
+	Imprimir ReverseDirectionAndSize(text)
+FinAlgoritmo
+```
+
+![REVERSE](https://user-images.githubusercontent.com/119624165/208567929-27bcfe5d-51b1-4cb5-883c-6331df0db1e6.PNG)
+
+---------------------------------------
