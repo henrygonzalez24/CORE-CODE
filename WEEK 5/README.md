@@ -55,4 +55,6 @@ Algoritmo CompareDistancesExercise
 FinAlgoritmo
 ```
 
+![COMPARE DISTANCE](https://user-images.githubusercontent.com/119624165/208787673-f0ee68b6-1d1c-4db9-92bd-6a2cd19b149a.PNG)
 
+------------------------------------------
