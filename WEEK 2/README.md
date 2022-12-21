@@ -39,7 +39,7 @@ Create an algorithm to prepare a bowl of cereal with milk. Represent the result 
 
 The pseudocode of the algorithm is the following:
 
-```
+```python
 -Algorithm: myname
    - Imprimir 'Henry González'
 -Algorithm end
@@ -51,7 +51,7 @@ The pseudocode of the algorithm is the following:
 
 The pseudocode of the algorithm is the following:
 
-```
+```python
 -Algorithm: myname
     -Imprimir 'Henry González'
    - Imprimir '24'
@@ -87,7 +87,7 @@ The challenge for you now is to create a PSeInt program that will receive a numb
 
 # REGISTER FORM
 
-```
+```python
 Algoritmo REGISTER 
 	Imprimir '====== USER FORM ======'
 	Imprimir 'First Name' 
@@ -142,7 +142,7 @@ You are going to learn about three main logical operations used in programming, 
 
 You have been assigned to verify and explain a code created by one of your colleagues, the idea is that you can describe the value that each variable has within the code as well as what was done for each line. What is expected of you is that you add comments below each line showing the value that the variable would have and a short explanation of how that value is reached.
 
-```
+```python
 Algoritmo Boolean
 	a <- 5 == 3
 	// FALSE, Because 5 is not the same with 3
@@ -171,7 +171,7 @@ Your algorithm detects if the number is odd or even (remember to use conditional
 Print ‘Número: x es par’ if the number is even (x is the number the user enters)
 Print ‘Número: x es impar’ if the number is odd (x is the number the user enters)
 
-```
+```python
 Algoritmo DetectEvenOdd
 	imprimir 'Enter number to verify'
     Leer X
