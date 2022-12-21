@@ -36,7 +36,7 @@ FinAlgoritmo
 
 Request a number from 1 to 50, if the number is not between those values, report the error and request it again until you get a valid number, then it shows on the screen all the numbers from 1 to that number, if the number is even it only shows the even numbers, if it is odd it only shows the odd ones.
 
-```
+```python
 Algoritmo evenOrOdd
 	repetir
 		imprimir 'write a number between 1 and 50: '
@@ -72,7 +72,7 @@ FinAlgoritmo
 
 Make a program that takes a first name and a last name, then returns a string with both values ​​with the first letter uppercase and the rest lowercase.
 
-```
+```python
 Algoritmo MAYUS
 	Imprimir 'Write your first name : '
 	Leer name
@@ -93,7 +93,7 @@ FinAlgoritmo
 
 make a program that simulates the roll of 2 dice 10 times, and display for each roll the values ​​of the two dice separated by a space, in case the 2 dice throw the same value in addition to the result, add a string to the ending that says "the dice are the same".
 
-```
+```python
 Algoritmo AZARGAME
 	imprimir 'THROW DICE'
 	definir dice1, dice2 Como entero
@@ -121,7 +121,7 @@ Make a program that asks for 5 values ​​and also allows us to know which one
 
 Expected output
 
-```
+```python
 Algoritmo ZeroNumber
 	Escribir 'Write a number'
 	leer distanceM
@@ -144,7 +144,7 @@ FinAlgoritmo
 
 From the data we receive first a name and a value, then another name and another value, using the built-in function aleatorio() we simulate the flip of a coin, We must return the name of the winner in capital letters and the value I win, to avoid cheating, if a player puts a value of zero or negative, the opponent automatically wins, in case both cheat, "game canceled" is returned.
 
-```
+```python
 Algoritmo tosscoin
 	escribir 'Enter the name of the first player :'
 	leer name1
@@ -184,7 +184,7 @@ FinAlgoritmo
 
 Create a function called TotalPrice that takes 2 parameters, price and VAT, and returns the price including VAT. if the price exceeds 3000 a 10 percent discount is made on the total price.
 
-```
+```python
 Funcion value <- TotalPrice (price, iva)
 	Definir value Como Real;
 	SI price > 3000 Entonces
@@ -207,7 +207,7 @@ FinAlgoritmo
 
 Create a function called ReverseDirectionAndSize that takes some text as a parameter and reverses it, eg: "Hello" -> "olleH" and also reverses the letters if they are uppercase to lowercase and if they are lowercase to uppercase
 
-```
+```python
 Funcion result <- ReverseDirectionAndSize (string)
 	Definir result Como Caracter;
 	result = "";
