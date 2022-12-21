@@ -9,7 +9,7 @@ Subtract (-)
 Multiplication (*)
 Division (/)
 
-```
+```python
 Algoritmo simpleCal
 	Imprimir ' =========SIMPLE CALCULATOR========'
 	Imprimir 'Ingrese primer numero'
@@ -51,7 +51,7 @@ SIMPLE CALCULATOR
 You must create the code that follows the following logic, if the given number is 100, take this number as special and show the following message: "This is a special number!", but if the number is less than 1000, multiple of 10 and different from 100, you must show the following message: "This number is almost special". if none of the given conditions are met show the following message: "Just a regular number". Another developer was trying to program the logic, but apparently couldn't, you need to fix the code to work properly
 
 This was the code from the developer
-```
+```python
 Algoritmo specialNumber
 	Leer n
 	Si n == 100 Entonces
@@ -70,7 +70,7 @@ FinAlgoritmo
 
 #### SOLUTION
 
-```
+```python
 Algoritmo specialnumber
 	Leer n
 	Si n == 100 Entonces
@@ -110,7 +110,7 @@ Subtract (-)
 Multiplication (*)
 Division (/)
 
-```
+```python
 Algoritmo simplecalc
 	Imprimir '=======Simple Calculator======='
 	Imprimir 'Ingrese primer numero'
@@ -155,7 +155,7 @@ FAIL OPERATION
 
 # Multi Option Program
 
-```
+```python
 Algoritmo Multipleopcion
 	Imprimir '1.Sumar dos numeros'
 	Imprimir '2.mostrar dia de la semana'
@@ -223,7 +223,7 @@ INCORRECT OPTION
  
 For this challenge you will create a program to calculate the multiplication tables for a given number using While (Mientras). The user must enter a number and then the multiplication table for the number must be printed.
 
-```
+```python
 Algoritmo sin_titulo
 	Imprimir '========= TABLA DE MULTIPLICAR ============'
 	Imprimir 'Ingrese la tabla para calcular'
@@ -243,7 +243,7 @@ FinAlgoritmo
 ---------------------------------------
  # Simple calculator with Do While
  
- ```
+ ```python
  Algoritmo simpleCalswitch
 	Imprimir ' =========SIMPLE CALCULATOR========'
 	Repetir
@@ -286,7 +286,7 @@ FinAlgoritmo
 
 For this challenge you will create a program to calculate the multiplication tables for a given number using the For(Para) loop.
 
-```
+```python
 Algoritmo MultiplicarPara
 	Imprimir '========= TABLA DE MULTIPLICAR ============'
 	Imprimir 'Ingrese la tabla para calcular'
@@ -307,7 +307,7 @@ FinAlgoritmo
 
 For this challenge we are going to print numbers in ascending or descending order. The user must enter a number, then he must enter if he wants to print the numbers in ascending or descending order. If the user chooses ascending, the numbers will be printed from the number 0 to the number entered, otherwise the numbers will be printed descending from the number entered to the number 0.To solve this challenge remember to use the For(Para) loop.
 
-```
+```python
 Algoritmo AscendAndDescen
 	Imprimir '===Ascending and Descending numbers==='
 	Imprimir 'Ingrese numero'
@@ -351,7 +351,7 @@ At the end of the program, print out the number of times the program has greeted
 
 
 
-```
+```python
 Algoritmo Greetings
 	Imprimir '======= Greetings ======='
 	Definir continuar Como Cadena
